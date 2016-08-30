@@ -116,7 +116,9 @@ For complete implementation checkout example folder.
 | height | number | 50 | Height of the selection |
 | optionListRef | function | required | Reference to ```<OptionList />``` to display the selection menu |
 | style | object | null | Custom styles to be applied if supplied |
+| styleText | object | null | Custom styles to be applied if supplied |
 | defaultValue | string | first option | The value to be displayed if none of the options are selected. |
+| onOpen | function | null | Callback to be executed when the option list is opened  |
 
 ##### Option:
 
@@ -129,7 +131,8 @@ For complete implementation checkout example folder.
 
 | Property | Type | Default | Description |
 |-----------|--------|---------|--------------------------------------------|
-| containerStyle | object | null | Styles to be applied on 'OptionList' component |
+| containerStyle | object | null | Styles to be applied on 'OptionList' component (currently only inline styles) |
+| onClose | function | null | Callback to be executed when the option list is closed  |
 
 ## Demo
 <p align="center">
