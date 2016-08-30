@@ -1,6 +1,6 @@
 {
   "name": "react-native-dropdown",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A better Select dropdown menu for react-native",
   "main": "lib/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "email": "a.najafizadeh@gmail.com",
     "url": "http://github.com/alinz"
   },
-  "contributors" : ["Azhar khan <azhar.mw@gmail.com>"],
+  "contributors" : ["Azhar khan <azhar.mw@gmail.com>", "Jean-Pierre Gassin <jeanpierre.gassin@gmail.com>"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alinz/react-native-dropdown"
